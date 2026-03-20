@@ -4,6 +4,6 @@ backend/node_modules/
 frontend/node_modules/
 
 # Ignore the database (This is likely the 100MB file)
-backend/webshop_db
-*.db
-*.sqlite
+# backend/webshop_db
+# *.db
+# *.sqlite
