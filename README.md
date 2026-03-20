@@ -98,16 +98,44 @@ npm start
 ```
 gik2xk-grupp5-projekt/
 ├── backend/
-│   ├── config/db.js          # Database connection (Sequelize)
-│   ├── controllers/          # Business logic for products & users
-│   ├── models/               # Database models (Product, User, Cart, Rating)
-│   ├── routes/               # API route definitions
-│   ├── server.js             # Express server entry point
-│   └── .env                  # Environment variables (DB config)
+│   ├── config/
+│   │   └── db.js                  # Sequelize database connection
+│   ├── controllers/
+│   │   ├── productRoutes.js       # Product business logic (CRUD)
+│   │   └── userRoutes.js          # User auth logic (login, register)
+│   ├── models/
+│   │   ├── Cart.js                # Cart & CartItem models
+│   │   ├── Product.js             # Product model
+│   │   ├── Rating.js              # Rating/Review model
+│   │   └── User.js                # User/Admin model
+│   ├── routes/
+│   │   ├── cartRoutes.js          # Cart API endpoints
+│   │   └── productRoutes.js       # Product API endpoints
+│   ├── .env                       # Environment variables (DB credentials)
+│   ├── package.json               # Backend dependencies & scripts
+│   ├── server.js                  # Express server entry point
+│   ├── setupDb.js                 # DB setup & data seeding
+│   ├── sync.js                    # Sequelize sync script
+│   └── webshop_db                 # Local SQLite DB (for dev/testing)
 ├── frontend/
-│   └── src/
-│       ├── App.jsx            # Main app & routing
-│       └── components/        # All React UI components
+│   ├── public/
+│   │   └── index.html             # Main HTML template
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Cart.jsx           # Shopping cart view
+│   │   │   ├── Footer.jsx         # Site footer
+│   │   │   ├── Login.jsx          # Login page
+│   │   │   ├── ProductDetail.jsx  # Product detail page
+│   │   │   ├── ProductForm.jsx    # Add/Edit product form (admin)
+│   │   │   ├── ProductList.jsx    # Product listing page
+│   │   │   ├── RatingForm.jsx     # Submit a product rating
+│   │   │   └── Register.jsx       # User registration page
+│   │   ├── App.jsx                # Main app component & routing
+│   │   ├── index.css              # Global styles
+│   │   └── index.js               # React entry point
+│   └── package.json               # Frontend dependencies & scripts
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
