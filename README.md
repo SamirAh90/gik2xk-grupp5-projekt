@@ -155,6 +155,20 @@ PORT=3305
 
 ---
 
+## 👤 Test Accounts
+
+The following admin accounts are seeded automatically when you run `node setupDb.js`:
+
+| Name    | Email           | Password | Role  |
+|---------|-----------------|----------|-------|
+| Ludwig  | ludwig@du.se    | lud123   | Admin |
+| Hangama | hangama@du.se   | han123   | Admin |
+| Samir   | samir@du.se     | sam123   | Admin |
+
+> You can also register a new regular user account directly from the app's **Register** page.
+
+---
+
 ## 📄 License
 
 See [LICENSE](LICENSE) for details.
