@@ -174,18 +174,18 @@ The following admin accounts are seeded automatically when you run `node setupDb
 See [LICENSE](LICENSE) for details.
 
 
-## Användande av AI 
+## Use of AI
 
-I detta projekt har vi använt AI för att generera kommentarer på kod, tolka kravspecifikationen och hjälpa till att lösa komplexa problem.
+In this project, we used AI to generate comments on code, interpret the requirements specification, and help solve complex problems.
 
-Exempel:
-Fråga: Vad är kundens kravspecifikation enligt bilagan (uppgiftsbeskrivningen)?
-Svar: Här är en sammanfattning av kundens kravspecifikation för projektarbetet om webbshoppen, strukturerad och tydlig.
+Example:
+Question: What is the customer’s requirements specification according to the attachment (assignment description)?
+Answer: Here is a clear and structured summary of the customer’s requirements specification for the webshop project.
 
-Följdfråga: Kan du formulera det från företagets perspektiv, där kunden ställer krav och vi som företag ska uppfylla dessa krav?
+Follow-up question: Can you formulate it from the company’s perspective, where the customer sets the requirements and we as a company need to fulfill them?
 
-Svar: Absolut. Här är kravspecifikationen omformulerad så att den blir kundfokuserad, som om vårt företag har fått i uppdrag att leverera en webbshop till en kund. Den presenteras som en checklista med krav och förväntningar ur kundens perspektiv.
+Answer: Absolutely. Here is the requirements specification reformulated to be customer-focused, as if our company has been assigned to deliver a webshop to a client. It is presented as a checklist of requirements and expectations from the customer’s perspective.
 
-Ytterligare fråga: Kan du skriva och kommentera denna text så att den blir tydligare och mer korrekt?
+Additional question: Can you write and comment on this text so that it becomes clearer and more accurate?
 
-Svar: AI hjälpte till att förbättra språket, göra kommenterana mer strukturerad och tydligare beskriva hur kraven ska förstås och uppfyllas.
+Answer: AI helped improve the language, translate, make the comments more structured, and describe more clearly how the requirements should be understood and fulfilled.
