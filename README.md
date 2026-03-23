@@ -172,3 +172,20 @@ The following admin accounts are seeded automatically when you run `node setupDb
 ## 📄 License
 
 See [LICENSE](LICENSE) for details.
+
+
+## Användande av AI 
+
+I detta projekt har vi använt AI för att generera kommentarer på kod, tolka kravspecifikationen och hjälpa till att lösa komplexa problem.
+
+Exempel:
+Fråga: Vad är kundens kravspecifikation enligt bilagan (uppgiftsbeskrivningen)?
+Svar: Här är en sammanfattning av kundens kravspecifikation för projektarbetet om webbshoppen, strukturerad och tydlig.
+
+Följdfråga: Kan du formulera det från företagets perspektiv, där kunden ställer krav och vi som företag ska uppfylla dessa krav?
+
+Svar: Absolut. Här är kravspecifikationen omformulerad så att den blir kundfokuserad, som om vårt företag har fått i uppdrag att leverera en webbshop till en kund. Den presenteras som en checklista med krav och förväntningar ur kundens perspektiv.
+
+Ytterligare fråga: Kan du skriva och kommentera denna text så att den blir tydligare och mer korrekt?
+
+Svar: AI hjälpte till att förbättra språket, göra kommenterana mer strukturerad och tydligare beskriva hur kraven ska förstås och uppfyllas.
